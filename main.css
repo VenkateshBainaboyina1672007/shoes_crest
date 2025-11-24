@@ -82,7 +82,7 @@
     margin: 20px;
     border-radius: 20px ;
     margin-top: 50px;
-    overflow: ;
+    overflow: 0;
     transition: all 1s ease-in-out 0s;
      
 
@@ -102,7 +102,7 @@
     margin: 20px;
     border-radius: 20px ;
     margin-top: 50px;
-    overflow: ;
+    overflow: 0;
     transition: all 1s ease-in-out 0s;
      
 
@@ -123,7 +123,7 @@
     margin: 20px;
     border-radius: 20px ;
     margin-top: 50px;
-    overflow: ;
+    overflow: 0;
     transition: all 1s ease-in-out 0s;
      
 
@@ -150,7 +150,9 @@
 }
 .container_ladies{
     /* background-image: url("/young-woman-beautiful-dress.jpg"); */
-    height: 100vh;
+    /* height: 100vh; */
+    width: 180vw;
+    background-color: #ffffff;
     background-size: cover;
 }
 .section-categiries{
@@ -164,16 +166,14 @@
     width: 25vw;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-    margin: 20px;
-    border-radius: 20px;
-    transition: all 1s ease 0s;
+   
 }
-.image-ladies:hover{
+/* .image-ladies:hover{
 
      transform: scale(1.1);
     transform: translate(10,10);
 
-}
+} */
 .button_back{
     background-color: #D6BD98;
     border-radius: 10px;
@@ -181,6 +181,112 @@
     width: 100px;
 
 }
+.item_container{
+    height: 50vh;
+    width: 25vw;
+    background-color: white;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin: 20px;
+    border-radius: 20px;
+    text-align: center;
+    transition: all 1s ease 0s;
+
+}
+.item_container:hover{
+
+     transform: scale(1.1);
+    transform: translate(10,10);
+    
+
+}
 body{
     margin: 0px;
+}
+
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: #f3f3f3;
+}
+
+.container-contact {
+    width: 90%;
+    max-width: 500px;
+    margin: 30px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.product-box {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 15px;
+}
+
+.product-box img {
+    width: 100px;
+    height: 100px;
+    border-radius: 8px;
+}
+
+.product-info h3 {
+    margin: 0;
+}
+
+.purchase-form label {
+    display: block;
+    margin-top: 15px;
+    color: #555;
+    font-weight: bold;
+}
+
+.purchase-form input,
+.purchase-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.purchase-form textarea {
+    height: 80px;
+}
+
+button {
+    
+    margin-top: 20px;
+    padding: 12px;
+    background: #0a8fdd;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0672b6;
+}
+.image_last{
+    
+    height: 20vh;
+    width: 20vw;
+    
+
 }
